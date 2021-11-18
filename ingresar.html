@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>El Mundo de la Moda</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">MUO</div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+                <li><a href="/">HOME</a></li>
+                <li class="comprar">
+                    <a href="/">COMPRAR</a>
+                    <!-- DROPDOWN MENU -->
+                    <ul class="dropdown">
+                        <li><a href="/">HOMBRE</a></li>
+                        <li><a href="comprarm.html">MUJER</a></li>
+                        <li><a href="/">NIÑO</a></li>
+                        <li><a href="/">ACCESORIOS</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+                <li><a href="ingresar.html">INGRESAR</a></li>
+            </div>
+        </ul>
+    </nav>
+
+    <main class="main-login">
+        <div class="form2">
+            <form action="login.html" id="formLogin" method="post" autocomplete="on" class="formulario"
+                name="formLogin">
+                <div class="main_sesion">
+                    <h2>INICIAR SESIÓN</h2>
+                </div>
+                <div class="user_log">
+                    <div class="name">
+                        <label class="usuario" for="nombre">Correo electrónico: <br></label><br>
+                        <input type="text" id="correo" name="correo" class="correo" required>
+                    </div>
+                    <div class="pass">
+                        <label for="password">Contraseña: <br></label><br>
+                        <input type="password" id="password" name="password" class="password" required>
+                    </div>
+                    <div class="recordarpass">
+                        <div class="check">
+                            <input tabindex="3" type="checkbox" value="1" id="user_remember_me">
+                            <label for="user_remember_me">Recuérdame</label>
+                        </div>
+                        <div class="forgot-password">
+                            <a hef="#" class="forgot">He olvidado la contraseña</a>
+                        </div>
+                    </div>
+                    <div class="contenedorBoton">
+                        <input type="submit" class="botonInicio" value="Iniciar Sesión">
+                    </div>
+                    <div class="form-registro">
+                        <label>¿No tienes una cuenta?</label>
+                        <a href="registro.html" class="registro">Regístrate</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor-grid">
+            <div class="container-footer">
+                <ul class="lista-footer">
+                    <h5>SIGUENOS EN</h4><br>
+                        <li><img class="logo-footer" src="imgs/logoFacebook.png" alt="facebook"><a href="#">
+                                Facebook</a></li>
+                        <li><img class="logo-footer" src="imgs/instagram.png" alt="instagram"><a href=""> Instagram</a>
+                        </li>
+                        <li><img class="logo-footer" src="imgs/twitter.png" alt="twitter"><a href=""> Twitter</a></li>
+                        <li><img class="logo-footer whatsapp" src="imgs/whatsapp.png" alt="whatsapp"><a href="">
+                                Whatsapp</a></li>
+                </ul>
+            </div>
+            <div class="container-footer">
+                <ul class="lista-footer">
+                    <h5>EL MUNDO DE LA MODA</h5>
+                    <li>Términos y Condiciones</li>
+                    <li>Aviso de Cumplimiento</li>
+                    <li>Política de Privacidad y Datos</li>
+                    <li>Plazos y Costos de Envío</li>
+                    <li>Tiendas Asociadas</li>
+                </ul>
+            </div>
+            <div class="container-footer">
+                <ul class="lista-footer">
+                    <h5>EMPRESA</h5>
+                    <li>Cómo Registrarse</li>
+                    <li>Cómo Comprar</li>
+                    <li>Uso de Cupones</li>
+                    <li>Cambios o Devoluciones</li>
+                </ul>
+            </div>
+            <div class="container-footer">
+                <ul class="lista-footer">
+                    <h5>MARCAS PROPIAS</h5>
+                    <li>Classic Studio</li>
+                    <li>ST sports</li>
+                    <li>ST glammour</li>
+                    <li>Everyday Style</li>
+                    <li>Beach Times</li>
+                </ul>
+            </div>
+            <div class="container-footer">
+                <ul class="lista-aliados">
+                    <h5>ALIADOS</h5>
+                    <li><img src="imgs/camaraDeComercio.png" alt="ccio" id="ccio"><br></li>
+                    <li><img src="imgs/supercomercio.png" alt="" id="super"><br></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer2">
+            <p>© El mundo de la Moda 2021 . Todos los derechos reservados. - Conoce nuestra Política de privacidad. -
+                Política de Datos.
+                <br>ST studios Colombia SAS.- NIT: 900.300.200-6. Calle 113 #13-71 Piso 9, Medellin, Colombia.
+                <br>Teléfono: 01 8000 540 431 o en Medellin (604) 508 2214
+                <br>E-mail: info@elmundodelamoda.com.co
+                <br>Horario: Lunes a viernes de 8:00 a.m. a 8:00 p.m. - Sábados y domingos de 8:00 am a 5:00 pm jornada
+                continua.
+                Festivos estaremos recargando baterías.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

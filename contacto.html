@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>El Mundo de la Moda</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">MUO</div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+                <li><a href="/">HOME</a></li>
+                <li class="comprar">
+                    <a href="/">COMPRAR</a>
+                    <!-- DROPDOWN MENU -->
+                    <ul class="dropdown">
+                        <li><a href="/">HOMBRE</a></li>
+                        <li><a href="comprarm.html">MUJER</a></li>
+                        <li><a href="/">NIÑO</a></li>
+                        <li><a href="/">ACCESORIOS</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+                <li><a href="ingresar.html">INGRESAR</a></li>
+            </div>
+        </ul>
+    </nav>
+
+    <main class="main-contact">
+        <div class="form-contact">
+            <form action="contactenos.html" id="form-contacto" method="POST" autocomplete="on"
+                class="formularioContacto" name="formContacto">
+                <div class="main_contact">
+                    <h2>CONTACTENOS</h2>
+                </div>
+                <div class="user_log">
+                    <div class="name_contact">
+                        <input type="text" name="nombre" id="nombre" class="nom_ape_mail" placeholder="Nombres"
+                            required>
+                        <input type="text" name="apellido" id="apellido" class="nom_ape_mail" placeholder="Apellidos"
+                            required></input>
+                    </div>
+                    <div class="email_contact">
+                        <input type="email" name="correo" class="nom_ape_mail" placeholder="Correo"
+                            required>
+                        <input type="text" name="telefono" class="nom_ape_mail" placeholder="Telefono"
+                            required>
+                    </div>
+                    <div class="mensaje_contact">
+                        <textarea type="text" name="mensaje" id="mensaje" class="nom_ape_mail" placeholder="Mensaje"></textarea required>
+                    </div>
+                    <div class="Boton_contact">
+                        <input type="submit" id="btn-enviar" class="boton_contact" value="Enviar">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="contenedor-grid">
+            <div class="container-footer">
+                <ul class="lista-footer">
+                    <h5>SIGUENOS EN</h4><br>
+                        <li><img class="logo-footer" src="imgs/logoFacebook.png" alt="facebook"><a href="#">
+                                Facebook</a></li>
+                        <li><img class="logo-footer" src="imgs/instagram.png" alt="instagram"><a href=""> Instagram</a>
+                        </li>
+                        <li><img class="logo-footer" src="imgs/twitter.png" alt="twitter"><a href=""> Twitter</a></li>
+                        <li><img class="logo-footer whatsapp" src="imgs/whatsapp.png" alt="whatsapp"><a href="">
+                                Whatsapp</a></li>
+                </ul>
+            </div>
+            <div class="container-footer">
+                <ul class="lista-footer">
+                    <h5>EL MUNDO DE LA MODA</h5>
+                    <li>Términos y Condiciones</li>
+                    <li>Aviso de Cumplimiento</li>
+                    <li>Política de Privacidad y Datos</li>
+                    <li>Plazos y Costos de Envío</li>
+                    <li>Tiendas Asociadas</li>
+                </ul>
+            </div>
+            <div class="container-footer">
+                <ul class="lista-footer">
+                    <h5>EMPRESA</h5>
+                    <li>Cómo Registrarse</li>
+                    <li>Cómo Comprar</li>
+                    <li>Uso de Cupones</li>
+                    <li>Cambios o Devoluciones</li>
+                </ul>
+            </div>
+            <div class="container-footer">
+                <ul class="lista-footer">
+                    <h5>MARCAS PROPIAS</h5>
+                    <li>Classic Studio</li>
+                    <li>ST sports</li>
+                    <li>ST glammour</li>
+                    <li>Everyday Style</li>
+                    <li>Beach Times</li>
+                </ul>
+            </div>
+            <div class="container-footer">
+                <ul class="lista-aliados">
+                    <h5>ALIADOS</h5>
+                    <li><img src="imgs/camaraDeComercio.png" alt="ccio" id="ccio"><br></li>
+                    <li><img src="imgs/supercomercio.png" alt="" id="super"><br></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer2">
+            <p>© El mundo de la Moda 2021 . Todos los derechos reservados. - Conoce nuestra Política de privacidad. -
+                Política de Datos.
+                <br>ST studios Colombia SAS.- NIT: 900.300.200-6. Calle 113 #13-71 Piso 9, Medellin, Colombia.
+                <br>Teléfono: 01 8000 540 431 o en Medellin (604) 508 2214
+                <br>E-mail: info@elmundodelamoda.com.co
+                <br>Horario: Lunes a viernes de 8:00 a.m. a 8:00 p.m. - Sábados y domingos de 8:00 am a 5:00 pm jornada
+                continua.
+                Festivos estaremos recargando baterías.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
